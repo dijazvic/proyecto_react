@@ -5,9 +5,9 @@
     background-color: #e89325;
   }
   
-  .logo-container {
-    width: 10px;
-    height: 10px;
+  .logo-container img {
+    width: 100px;
+    height: 100px;
   }
   
   .nav-container {
@@ -20,8 +20,8 @@
   }
   
   .nav-container li a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+    
+    color: rgb(255, 240, 240);
     font-weight: 1000;
     font-size: 18px;
   }
