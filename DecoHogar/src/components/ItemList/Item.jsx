@@ -1,6 +1,6 @@
 import { Button, Card, CardGroup } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "bootstrap/dist/js/bootstrap.min.js";
 import { Link } from "react-router-dom";
 
 function Item({ producto }) {

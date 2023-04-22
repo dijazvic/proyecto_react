@@ -6,12 +6,11 @@ import "./NavBar.css"
 
 
 function NavBar () {
-  const brand = "./src/assets/logo.jpg"
     return (
       <header className="header">
       <Link className="navbar-brand" to="/">
         <div className="logo-container">
-          <img src={brand} alt="logo" />
+          <img src="./src/assets/logo.jpg" alt="logo" />
         </div>
       </Link>
       <nav className="navbar">

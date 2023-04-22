@@ -3,7 +3,7 @@ import { useCount } from "../Hooks/useCount"
 
 
 const ItemCount = ({initial=1, stock=10, min=1, onAdd}) => {
-const {contador, increment, decrement, reset } = useCount(min, initial, stock) 
+const {contador, increment, decrement, reset } = useCount(1, initial, stock) 
 
     function handleOnAdd() {
     onAdd(contador)

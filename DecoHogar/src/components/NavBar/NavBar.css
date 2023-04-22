@@ -6,23 +6,22 @@
   }
   
   .logo-container {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    width: 10px;
+    height: 10px;
   }
   
   .nav-container {
-      margin: 0;
-    display: flex;
+      display: flex;
   }
   
   .nav-container li {
-    margin: 0 60px;
+    margin: 60px;
     list-style: none;
   }
   
   .nav-container li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 1000;
     font-size: 18px;
   }

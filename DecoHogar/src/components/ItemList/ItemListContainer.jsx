@@ -20,13 +20,13 @@ function ItemListContainer ({greeting = "Bienvenidos a DecoHogar"}) {
     }, [cid])
  
     return (
-        <div>
+      <div>
         <h2>{greeting}</h2>
-        <h3 className="item-list-container_title">Productos destacados</h3>
-      <div className="d-flex flex-wrap justify-content-center">
-        <ItemList productos={productos} />
-      </div>
+        <h3 className="item-list-container__title">Productos destacados</h3>
+        <div className="d-flex flex-wrap justify-content-center">
+          <ItemList productos={productos} />
         </div>
+      </div>
     )
 }    
 
