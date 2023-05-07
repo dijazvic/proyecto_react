@@ -1,7 +1,6 @@
 function CartWidget () {
     return (
-        <div text>
-        2
+        <div>
         <img src = "./src/components/img/navbar/carrito.png" width={30}></img>
         </div>
     )

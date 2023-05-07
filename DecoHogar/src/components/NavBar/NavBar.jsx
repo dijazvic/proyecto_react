@@ -2,10 +2,12 @@ import React from "react"
 import { Link } from "react-router-dom"
 import CartWidget from "../CartWidget/CartWidget"
 import "./NavBar.css"
+import { useCartContext } from "../Context/CartContext"
 
 
 
 function NavBar () {
+  const {cantidadTotal} = useCartContext()
     return (
       <header className="header">
       <Link className="navbar-brand" to="/">
@@ -32,6 +34,7 @@ function NavBar () {
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/cart">
+              {cantidadTotal() >0 && cantidadTotal()}
               <CartWidget/>
             </Link>
           </li>
